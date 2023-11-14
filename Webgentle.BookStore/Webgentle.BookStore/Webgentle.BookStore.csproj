@@ -9,5 +9,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
 
 </Project>

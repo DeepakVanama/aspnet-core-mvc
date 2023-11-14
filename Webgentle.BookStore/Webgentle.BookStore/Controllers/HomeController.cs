@@ -4,9 +4,17 @@ namespace Webgentle.BookStore.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ActionResult Index()
         {
-            return "Hello";
+            return View();
+        }
+        public ActionResult AboutUs()
+        {
+            return View();
+        }
+        public ActionResult ContactUs()
+        {
+            return View();
         }
     }
 }
